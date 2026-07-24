@@ -1,12 +1,13 @@
-'''2-mashq — Birinchi <h1>'''
+"""2-mashq — Birinchi <h1>"""
 
 from bs4 import BeautifulSoup
+
 import requests
 
 url = "https://example.com"
 response = requests.get(url=url)
 
-soup = BeautifulSoup(response.text, 'html.parser')
+soup = BeautifulSoup(response.text, "html.parser")
 
 data = soup.find("h1")
 print(data)

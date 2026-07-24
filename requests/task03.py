@@ -1,4 +1,4 @@
-'''3-mashq — JSON'''
+"""3-mashq — JSON"""
 
 import requests
 

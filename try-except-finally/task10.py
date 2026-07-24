@@ -1,10 +1,9 @@
-
-'''
+"""
 10. Kuchaytirilgan bo'lish amali
-Foydalanuvchidan ikkita son so'rang. Birinchi sonni ikkinchisiga bo'ling. 
-Kodda try, except ZeroDivisionError, except ValueError va 
+Foydalanuvchidan ikkita son so'rang. Birinchi sonni ikkinchisiga bo'ling.
+Kodda try, except ZeroDivisionError, except ValueError va
 eng oxirida baribir ishlaydigan finally bloklarini birgalikda ishlating.
-'''
+"""
 
 try:
     a = int(input("1-son: "))

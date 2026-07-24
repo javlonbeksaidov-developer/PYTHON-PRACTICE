@@ -1,14 +1,10 @@
-'''12-mashq — POST so'rovi'''
+"""12-mashq — POST so'rovi"""
 
 import requests
 
 url = "https://jsonplaceholder.typicode.com/posts"
 
-data = {
-    "title": "Python Requests",
-    "body": "Learning API",
-    "userId": 1
-}
+data = {"title": "Python Requests", "body": "Learning API", "userId": 1}
 
 response = requests.post(url=url, json=data)
 

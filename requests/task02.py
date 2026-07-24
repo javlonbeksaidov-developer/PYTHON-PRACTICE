@@ -1,4 +1,4 @@
-'''2-mashq — Matnni chiqarish'''
+"""2-mashq — Matnni chiqarish"""
 
 import requests
 

@@ -1,13 +1,15 @@
 from bs4 import BeautifulSoup
-import requests
 from json_service import load, save
 
+import requests
+
+
 def scraper(page):
-    for page in range(1, 11):
-        URL = f'https://quotes.toscrape.com/page/{page}/'
+    for i in range(1, 11):
+        URL = f"https://quotes.toscrape.com/page/{i}/"
         response = requests.get(URL)
 
-        soup = BeautifulSoup(response.text, 'html.parser')
+        soup = BeautifulSoup(response.text, "html.parser")
 
         database = load()
 
@@ -23,11 +25,10 @@ def scraper(page):
             for tag in keywords:
                 kw.append(tag.text.strip())
 
-
             quotes = {
                 "quote": quote.text.strip(),
                 "author": author.text.strip(),
-                "tags" : kw
+                "tags": kw,
             }
             base.append(quotes)
 

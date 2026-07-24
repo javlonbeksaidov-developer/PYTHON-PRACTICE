@@ -1,8 +1,8 @@
-'''6-mashq — Bir nechta postlarni olish'''
+"""6-mashq — Bir nechta postlarni olish"""
 
 import requests
 
-url = 'https://jsonplaceholder.typicode.com/posts'
+url = "https://jsonplaceholder.typicode.com/posts"
 
 response = requests.get(url=url)
 

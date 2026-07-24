@@ -1,4 +1,4 @@
-'''4-mashq — Type tekshirish'''
+"""4-mashq — Type tekshirish"""
 
 import requests
 

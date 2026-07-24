@@ -1,4 +1,4 @@
-'''1-mashq — Birinchi GET so'rovi'''
+"""1-mashq — Birinchi GET so'rovi"""
 
 import requests
 

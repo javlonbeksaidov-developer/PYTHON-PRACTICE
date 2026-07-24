@@ -1,6 +1,8 @@
-from bs4 import BeautifulSoup
-import requests
 import json
+
+from bs4 import BeautifulSoup
+
+import requests
 
 url = "https://www.fcbarcelona.com/en/football/first-team/players"
 response = requests.get(url=url)

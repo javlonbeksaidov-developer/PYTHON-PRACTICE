@@ -1,8 +1,8 @@
-'''11-mashq — Xatolikni tekshirish'''
+"""11-mashq — Xatolikni tekshirish"""
 
 import requests
 
-url = 'https://jsonplaceholder.typicode.com/posts/999999'
+url = "https://jsonplaceholder.typicode.com/posts/999999"
 response = requests.get(url=url)
 
 data = response.json()

@@ -1,13 +1,13 @@
-'''10-mashq — Params ishlatish'''
+"""10-mashq — Params ishlatish"""
 
 import requests
 
-url = 'https://jsonplaceholder.typicode.com/posts'
+url = "https://jsonplaceholder.typicode.com/posts"
 
 
 params = {
-    'userId' : 1,
-    'id' : 4,
+    "userId": 1,
+    "id": 4,
 }
 
 response = requests.get(url=url, params=params)

@@ -1,10 +1,9 @@
-
-'''
+"""
 1. Nollga bo'lish (ZeroDivisionError)
-Foydalanuvchidan ikkita son so'rang (a va b). 
-a / b natijasini hisoblang. Agar foydalanuvchi b o'rniga 0 kiritsa, 
+Foydalanuvchidan ikkita son so'rang (a va b).
+a / b natijasini hisoblang. Agar foydalanuvchi b o'rniga 0 kiritsa,
 dastur o'chib ketmasdan, "Nollga bo'lish mumkin emas!" degan xabarni chiqarsin.
-'''
+"""
 
 try:
     a = float(input("Birinchi son: "))
