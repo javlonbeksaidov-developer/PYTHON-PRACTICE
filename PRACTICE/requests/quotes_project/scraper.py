@@ -1,7 +1,7 @@
-from bs4 import BeautifulSoup
-from json_service import load, save
-
 import requests
+from bs4 import BeautifulSoup
+
+from PRACTICE.requests.quotes_project.json_service import load, save
 
 
 def scraper(page):

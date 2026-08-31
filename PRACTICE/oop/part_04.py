@@ -1,6 +1,6 @@
 from uuid import uuid4
 
-from part_03 import Person
+from PRACTICE.oop.part_03 import Person
 
 
 class Auto:

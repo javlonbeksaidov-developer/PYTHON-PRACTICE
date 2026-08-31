@@ -1,8 +1,14 @@
 from statistics import author, quote, statistics, tags
 
-from menu import choose, menu, page_download_menu, search_author_menu, search_tag_menu
-from scraper import scraper
-from search import search_author, search_tag
+from PRACTICE.requests.quotes_project.menu import (
+    choose,
+    menu,
+    page_download_menu,
+    search_author_menu,
+    search_tag_menu,
+)
+from PRACTICE.requests.quotes_project.scraper import scraper
+from PRACTICE.requests.quotes_project.search import search_author, search_tag
 
 
 def main():

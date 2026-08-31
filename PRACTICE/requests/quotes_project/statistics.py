@@ -1,4 +1,4 @@
-from json_service import load
+from PRACTICE.requests.quotes_project.json_service import load
 
 
 def statistics():
